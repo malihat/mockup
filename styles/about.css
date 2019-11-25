@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#phone {
+  padding: 10px;
+  margin-top: 25px;
+  height: 27px;
+  font-size: 21px;
+  background-color: #7c7a7a;
+  margin-right: 45px;
+  border-radius: 15px;
+  color: whitesmoke;
+}
+
+#logo img {
+  width: 300px;
+  height: 120px;
+}
+
+#navbar {
+  background-color: #863434 ;
+}
+
+#navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#navbar-inner a {
+  margin-top: 17px;
+  color: #fdfeff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+
+
+.title {
+  font-size: 2em;
+  text-align: center;
+  /* font-family: 'Roboto', sans-serif;   */
+  /* font-family: 'Sorts Mill Goudy', serif; */
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.list-title {
+  font-size: 1.6em;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+#title-name {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#title-para {
+  font-size: 1.2em;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 3%;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+
+}
+
+.section-1-img {
+  /* display: block; */
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 45%;
+  /* height: 85%; */
+}
+
+.section-para {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  /* font-family: 'Source Sans Pro', arial, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px; 
+  margin-bottom: 5%;
+}
+
+li {
+  font-size: 1.1em;
+  padding-left: 0;
+  padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 23px; 
+  /* line-height: 15px; */
+}
